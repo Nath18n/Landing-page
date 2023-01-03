@@ -1,0 +1,86 @@
+html, body{
+  box-sizing:border-box;
+  margin:0px;
+  padding:0px;
+  height:100vh;
+  width:100vw;
+  background:#212529;
+  overflow-x: hidden;
+}
+.container{
+  display:contents;
+  flex-direction:column;
+}
+header{
+  height:auto;
+}
+nav{
+  height:50px;
+}
+main{
+  background:white;
+  height:auto;
+}
+.carrosel{
+  background:#212529;
+  height:400px;
+}
+.produto{
+  height:450px;
+}
+.precos{
+  background:#212529;
+  height:200px;
+  display:flex;
+  gap:15px;
+  justify-content:center;
+  align-items:center;
+}
+.autora{
+  background:white;
+  height:450px;
+}
+footer{
+  height:auto;
+  padding:30px;
+}
+
+/*img menu*/
+.img-brand{
+  padding-top:15px;
+  padding-left:15px;
+  padding-bottom:15px;
+}
+.conteudo-produto{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  padding-bottom:50px;
+  padding-top:50px;
+}
+.texto-produto{
+  width:500px;
+}
+.items-preco{
+  padding-bottom:50px;
+  padding-top:20px;
+}
+.hero-img{
+  height:370px;
+  width:auto;
+}
+.social{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:15px;
+}
+.btn-primary{
+  background:orangered;
+  border: 2px solid  black;
+  transition-duration:0.4s;
+}
+.btn-primary:hover {
+  background-color:black;
+  border: 2px solid black;
+}
